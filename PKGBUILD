@@ -1,4 +1,4 @@
-#Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+# Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 
 pkgname=pulseaudio-modules-droid-jb2q
 provides=('pulseaduio-modules-droid-jb2q')
@@ -6,7 +6,7 @@ _pkgbase=pulseaudio-modules-droid-jb2q
 pkgver=632.6f3132d
 pkgrel=1
 arch=('armv7h' 'aarch64' 'x86' 'x86_64')
-url="https://github.com/mer-hybris/pulseaudio-modules-droid-hidl"
+url="https://github.com/mer-hybris/pulseaudio-modules-droid-jb2q"
 license=('GPL2')
 depends=('pulseaudio-module-keepalive' 'pulseaudio' 'audiosystem-passthrough')
 makedepends=('git' 'pkgconfig' 'android-headers' 'automake' 'autoconf' 'libhybris' 'pulsecore-headers')
